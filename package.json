@@ -1,0 +1,32 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Traductor",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davellanedam/platzom.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "test",
+    "traductor"
+  ],
+  "author": "Daniel Avellaneda <davellanedam@gmail.com> (https://www.totumo.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davellanedam/platzom/issues"
+  },
+  "homepage": "https://github.com/davellanedam/platzom#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
